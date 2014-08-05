@@ -20,6 +20,16 @@
 		background-attachment: fixed;
 	}
 
+  .split {
+    width: 45%;
+    display: inline;
+  }
+
+  .split.first {
+    float: left;
+    margin-right: 5%;
+  }
+
   #logo {
     overflow:hidden; /* this is important */
     max-height: 322px;

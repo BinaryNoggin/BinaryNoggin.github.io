@@ -20,6 +20,23 @@
 		letter-spacing: 0;
 	}
 
+  .split {
+    display: block;
+    width: 100%;
+  }
+
+  .split.first {
+    margin-bottom: 5%;
+  }
+
+  .split.first:after {
+    clear: both;
+    display: block;
+    content: ",";
+    visibility: hidden;
+    height: 0;
+  }
+
   #logo {
     overflow:hidden; /* this is important */
     max-height: 161px;
