@@ -22,7 +22,7 @@
 
   .split {
     width: 45%;
-    display: inline;
+    display: inline-block;
   }
 
   .split.first {
