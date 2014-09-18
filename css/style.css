@@ -1223,8 +1223,12 @@
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
+			#press:before
+			{
+				bottom: 27.5em;
+			}
 
-	#banner
+	#banner, #press
 	{
 		position: relative;
 		color: #fff;
@@ -1235,42 +1239,43 @@
 		margin: 0;
 		background-size: 125% auto;
 	}
+      #press { margin-top: 9em; }
 
-		#banner .button
+		#banner .button, #press .button
 		{
 			color: #35b882;
 			text-shadow: 0 0 0.5px rgba(53,184,130,0.25);
 		}
 
-		#banner header
+		#banner header, #press header
 		{
 			margin: 0 0 2em 0;
 		}
 
-			#banner header h2
+			#banner header h2, #press header h2
 			{
 				font-weight: 400;
 				font-size: 1.75em;
 				letter-spacing: 8px;
 			}
 
-		#banner p
+		#banner p, #press p
 		{
 			margin: 0;
 		}
 
-		#banner footer
+		#banner footer, #press footer
 		{
 			margin: 2em 0 0 0;
 		}
 
-		#banner a
+		#banner a, #press a
 		{
 			color: inherit;
 			border-bottom-color: rgba(255,255,255,0.5);
 		}
 
-			#banner a:hover
+			#banner a:hover, #press a:hover
 			{
 				border-bottom-color: rgba(255,255,255,0);
 			}
