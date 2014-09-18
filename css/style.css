@@ -608,6 +608,10 @@
 						{
 							right: 0;
 						}
+						.box.style1.right .image#freelancers_show img
+            {
+              right: 65px;
+            }
 
 					.box.style1.right .inner
 					{
